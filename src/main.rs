@@ -42,21 +42,3 @@ async fn print_entry(args: Args) -> Result<()> {
 
     Ok(())
 }
-
-#[cfg(test)]
-mod tests {
-    use super::*;
-
-fn sorted<'a>(x: &'a str, y: &'a str) -> (&'a str, &'a str) {
-    if x < y {
-        (x, y)
-    } else {
-        (y, x)
-    }
-}
-
-    #[test]
-    fn success() {
-        
-    }
-}
